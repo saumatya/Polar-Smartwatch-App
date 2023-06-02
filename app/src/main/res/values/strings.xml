@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Save The World Challenge</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <!-- item titel adapter -->
+    <string name="title_adapter">Adapter Titel</string>
+
+    <!-- Main menu Activity -->
+    <string name="title_activity_main_menu">Save The World Challenge</string>
+    <string name="main_menu_title">Save The World Challenge</string>
+    <string name="item_main_menu_btn">Main Menu button</string>
+
+    <!-- Information Activity -->
+    <string name="title_activity_information">InformationActivity</string>
+    <string name="information_title">Save the World-challenge</string>
+    <string name="information_txt">With this application you can track your daily carbon emission calculation when travelling. Our implementation does not cover plane travel or emissions cost of building the vehicle. We used global parameters, that are based on the average food consumption what user spends while using vehicles that require physical activity. Vehicles that are using fuel are calculated by their emission factor, fuel efficiency with distance travelled divided by fuel consumption. You can also see how well you are performing compared to other users by checking Save the World-challenge option, where you see the leader board.</string>
+
+    <!-- Travel History Activity -->
+    <string name="title_activity_travel_history">TravelHistoryActivity</string>
+    <string name="travel_title">Travel History</string>
+    <string name="travel_year">2023</string>
+    <string name="travel_january">January</string>
+    <string name="travel_february">February</string>
+    <string name="travel_march">March</string>
+    <string name="travel_april">April</string>
+
+    <string name="hello_world">Hello Square World!</string>
+    <string name="Screen1Txt">We are on Main Activity Screen</string>
+    <string name="Screen1Button">Go to\nStart Tracking Activity </string>
+    <string name="Screen1Button2">Go to\nTransport List Activity </string>
+
+    <string name="Screen2Txt">We are on\nStart Tracking Activity\nScreen</string>
+    <string name="Screen2Button">Stop tracking</string>
+    <string name="title_activity_start_tracking">StartTrackingActivity</string>
+    <string name="title_activity_transport_list">TransportListActivity</string>
+
+    <string name="Screen3Txt">Select vehicle</string>
+    <string name="Screen3Button">Go to\nMain Activity Activity </string>
+    <string name="title_activity_first_kotlin">FirstKotlinActivity</string>
+    <string name="title_activity_create_transport_form">CreateTransportFormActivity</string>
+    <string name="circle_btn_txt">Label</string>
+    <string name="title_activity_add_transport">AddTransportActivity</string>
+    <string name="title_activity_template">TemplateActivity</string>
+    <string name="title_activity_confirmation">ConfirmationActivity</string>
+
+    <!-- Confirmation Activity -->
+    <string name="confirmation_title">New Transport is inserted successfully</string>
+    <string name="title_activity_show_single_transport">ShowSingleTransportActivity</string>
+
+    <!-- SelectTransportForTracking Activity -->
+    <string name="title_activity_select_tansport_for_tracking"> SelectTransportForTrackingActivity</string>
+
+    <!-- TrackingService -->
+    <string name="channel_name" translatable="false">Tracking_Channel</string>
+    <string name="channel_description" translatable="false">This Tracking channel is for Communication outside the app</string>
+    <string name="title_activity_save_the_world_challenge">SaveTheWorldChallengeActivity</string>
+    <string name="title_activity_show_winners_of_the_day">ShowWinnersOfTheDayActivity</string>
+    <string name="title_activity_show_information_about_winner">ShowInformationAboutWinnerActivity
+    </string>
+</resources>

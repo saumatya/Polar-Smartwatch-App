@@ -1,1 +1,1 @@
-# Polar-Smartwatch-App
+# polar_watch

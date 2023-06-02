@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1045626402352",
+    "project_id": "carbonfootprint-f9eff",
+    "storage_bucket": "carbonfootprint-f9eff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045626402352:android:89d8a7c0e61a880ddfdff5",
+        "android_client_info": {
+          "package_name": "com.example.polar_watch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045626402352-5tf5m3ffuh3b6ugf0slt6k1sr1gg60p2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT4vKvI9uaUz-w0--1IummWI4VCKxRz2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1045626402352-5tf5m3ffuh3b6ugf0slt6k1sr1gg60p2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.DeviceDefault">
+        <uses-library
+            android:name="com.google.android.wearable"
+            android:required="true" />
+
+        <!--
+               Set to true if your app is Standalone, that is, it does not require the handheld
+               app to run.
+        -->
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+
+        <service
+            android:name=".TrackingService"
+            android:enabled="true"
+            android:exported="true"
+            android:foregroundServiceType="location" />
+
+        <activity
+            android:name=".SelectDayWithDifferentWinnersActivity"
+            android:exported="true"
+            android:label="@string/title_activity_save_the_world_challenge" />
+        <activity
+            android:name=".ShowWinnersOfTheDayActivity"
+            android:exported="true"
+            android:label="@string/title_activity_show_winners_of_the_day" />
+        <activity
+            android:name=".SelectTransportForTrackingActivity"
+            android:exported="true"
+            android:label="@string/title_activity_select_tansport_for_tracking" />
+        <activity
+            android:name=".ShowSingleTransportActivity"
+            android:exported="true"
+            android:label="@string/title_activity_show_single_transport" />
+        <activity
+            android:name=".ConfirmationActivity"
+            android:exported="true"
+            android:label="@string/title_activity_confirmation" />
+        <activity
+            android:name=".TemplateListActivity"
+            android:exported="true"
+            android:label="@string/title_activity_template" />
+        <activity
+            android:name=".CreateTransportActivity"
+            android:exported="true"
+            android:label="@string/title_activity_add_transport" />
+        <activity
+            android:name=".TravelHistoryActivity"
+            android:exported="true"
+            android:label="@string/title_activity_travel_history" />
+        <activity
+            android:name=".InformationActivity"
+            android:exported="true"
+            android:label="@string/title_activity_information" />
+        <activity
+            android:name=".MainMenuActivity"
+            android:exported="true"
+            android:label="@string/title_activity_main_menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TransportListActivity"
+            android:exported="true"
+            android:label="@string/title_activity_transport_list" />
+        <activity
+            android:name=".StartTrackingActivity"
+            android:exported="true"
+            android:label="@string/title_activity_start_tracking"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+    </application>
+
+</manifest>
